@@ -11,7 +11,17 @@
 </head>
 <body>
   <h1>Food Menu</h1>
+  
+  <form id="menu-form">
+    <label for="item-selector">Select menu items to display:</label>
+    <select id="item-selector" multiple>
+      <!-- Options will be populated by JavaScript -->
+    </select>
+    <button type="submit">Show Selected Items</button>
+  </form>
+
   <div id="menu"></div>
+  
   <script src="app.js"></script>
 </body>
 </html>
